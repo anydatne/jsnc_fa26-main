@@ -26,7 +26,7 @@ console.log("Tuoi cua toi la:", age);
 
 // Ham
 function sayHello() {
-  console.log("xin chao");
+  console.log("xin chao dat");
   return 10;
 }
 
