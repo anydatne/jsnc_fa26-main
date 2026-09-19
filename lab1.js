@@ -85,3 +85,15 @@ function calculateAverage(math, english, java){
 
 const average = calculateAverage(math, english, java);
 console.log(average);
+
+//bai tap tong hop
+
+const tuoi = 22;
+const ten = "Dat";
+const lop = "WD2026";
+
+function ShowStudent(tuoi, ten, lop){
+  console.log(`Tên: ${ten}, Tuổi: ${tuoi}, Lớp: ${lop}`);
+}
+
+ShowStudent(tuoi, ten, lop);
