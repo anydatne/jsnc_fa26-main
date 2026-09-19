@@ -31,3 +31,57 @@ function sayHello() {
 }
 
 sayHello();
+
+//bài 2 
+let aage = 20;
+console.log(aage); 
+
+aage = 21;
+console.log(aage);
+
+//bài 3
+
+const c = 10;
+const d = 5;
+
+console.log("Tong:", c + d);
+console.log("Hieu:", c - d);
+console.log("Tich:", c * d);
+console.log("Thuong:", c / d);
+
+//bai 4
+function sayHi(name) {
+  console.log("Xin chao " + name);
+}
+
+sayHi("Nam");
+sayHi("Huyen");
+sayHi("Dat");
+
+//bai 5
+function sum(a,b){
+  return a + b;
+}
+
+const result = sum(10, 20);
+console.log(result);
+
+//bai 6 
+function calculateTotal(price, quantity){
+  return price * quantity;
+}
+
+const total = calculateTotal(5000 ,3);
+console.log(total); 
+
+//bai 7 
+const math = 8;
+const english = 7;
+const java = 9;
+
+function calculateAverage(math, english, java){
+  return (math + english + java) /3;
+}
+
+const average = calculateAverage(math, english, java);
+console.log(average);
