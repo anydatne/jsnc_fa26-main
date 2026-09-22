@@ -106,3 +106,15 @@ const studentsss = [
 
 //in ra danh sach
 console.log("Danh sach sinh vien: ",studentsss);
+
+//in ten sinh vien dau tien
+console.log("Ten sinh vien dau tien:",studentsss[0]);
+
+//in tuoi sinh vien thu 2
+console.log("tuoi sinh vien thu 2:",studentsss[1].age);
+
+//4.5
+console.log("Danh sach sinh vien");
+for (let i = 0; i < studentsss.length; i++) {
+  console.log(`Sinh viên ${i + 1}: ${studentsss[i].name}`);
+}
